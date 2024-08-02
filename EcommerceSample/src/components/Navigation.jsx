@@ -23,6 +23,7 @@ const Navigation = () => {
       </div>
     </div>
   </nav>
+  <Outlet />
   </>
   )
 };

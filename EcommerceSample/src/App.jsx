@@ -12,9 +12,9 @@ function App() {
     <>
       <BrowserRouter>
     <Routes> 
-      {/* <Route path="/" element={<Navigation />}> */}
-      {/* <Route index element={< />}/> */}
-      <Route path="/" element={<Home/>}>
+      <Route path="/" element={<Navigation />}>
+      <Route index element={< Home/>}/>
+      {/* <Route path="/in" element={<Home/>}/> */}
       </Route>
     </Routes>
     </BrowserRouter>

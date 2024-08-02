@@ -11,7 +11,6 @@ const Home = () => {
     return(
       <div className="container mt-3">
         {/* console.log(product); */}
-        <h2>dfhgfsghfhsg</h2>
         {product.map(product=>(
           
            <div className="card">
